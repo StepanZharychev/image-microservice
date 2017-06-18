@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever stop ./server/index.js; forever stop ./image/index.js;forever start ./server/index.js; forever start ./image/index.js;"
+  },
+  "author": "Stepan Zharychev",
+  "license": "ISC",
+  "dependencies": {
+    "connect-busboy": "0.0.2"
+  }
+}

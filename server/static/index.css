@@ -1,0 +1,15 @@
+img {
+    opacity: 1;
+    transition: opacity 0.3s;
+    max-width: 100%;
+    max-height: 60vh;
+    display: block;
+}
+
+img[data-src] {
+    opacity: 0;
+}
+
+input {
+    width: 100%;
+}
